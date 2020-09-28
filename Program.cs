@@ -15,8 +15,8 @@ namespace Flight_Planning_NEA
             //Divide up text file
             string[] AirportDataLines = AirportDataFile.Split("/n");
             Console.WriteLine(AirportDataLines);
-
             int Lines = AirportDataLines.length;
+            Console.WriteLine(AirportDataLines);
             Console.WriteLine("Number of airports: " + Convert.ToString(Lines));
 
             //Put data into arrays
